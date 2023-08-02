@@ -1,11 +1,11 @@
 $white: #fff;
 $star: #febb21;
-$primary: #456571;
+$primary: #018E71;
 $secondary: #E5E5E5;
-$tertiary:#D69D14;
+$tertiary:#49BFA9;
 $text: #000;
-$font: objektiv-mk1, sans-serif; 
-$font2: dashiell-fine, serif; 
+$font: "circe", sans-serif;
+$font2: "circe", sans-serif;
 
 
 /* keyframes */
@@ -57,7 +57,7 @@ menu{display:block}
 nav{display:block}
 section{display:block}
 summary{display:block}
-body{margin:0;position:relative;background-color:#F2F1EC;font-family:$font;text-align:center}
+body{margin:0;position:relative;background-color:#EBEBEB;font-family:$font;text-align:center}
 button{overflow:visible;font:inherit;line-height:initial;margin:0;text-transform:none;cursor:pointer;-webkit-appearance:button;-moz-appearance:button;appearance:button;border:0;}
 input{overflow:visible;font:inherit;line-height:initial;margin:0;}
 select{overflow:visible;font:inherit;line-height:initial;margin:0;text-transform:none}
@@ -110,7 +110,7 @@ address{font-style:normal!important}
 .fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}
 .star:before {font-size:28px;font-family:'fontello';font-weight:400;margin:0;font-style:normal;content:'\e80f \e80f \e80f \e80f \e80f';color:$star;letter-spacing:8.4px}
 p{font:300 20px/28px $font;color:$text}
-h2{text-align:left;color: #2C3944;font-size:40px;line-height:52px;font-weight:400;line-height:1.2;font-family:$font2!important}
+h2{text-align:left;color: #2C3944;text-transform:uppercase;font-size:40px;line-height:52px;font-weight:900;line-height:1.2;font-family:$font2!important;letter-spacing: 7px;}
 h3{font-size:32px;line-height:1.41;margin-top:10px}
 h2,h3,h4,h5,h6{font-family:$font}
 .progress{vertical-align:baseline}
@@ -131,10 +131,10 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
     address{padding:0 8px;}
     .address{text-align:left;display:flex;color: #000;font-size:22px;line-height:1.25;font-weight:400;letter-spacing:.55px;
         &:hover{color:$tertiary}
-        i:before {color: $tertiary;font-size: 22px;margin-left: -10px;margin-right: 15px;margin-top: 10px;}
+        i:before {color: $tertiary;font-size: 22px;margin-left: -10px;margin-right: 15px;}
     }
 	#nav{padding: 20px 10px;display:flex;flex-wrap:wrap;max-width:1350px;justify-content:space-between;margin:auto;align-items:center;
-		.btn{display: flex;transition: 0.3s all ease;flex-wrap: wrap;	justify-content: center;margin:0;font-size:24px;background-color: $tertiary;max-width: 288px;display:flex;color: $white;font-family: $font;font-weight: 600;border-radius: 10px;
+		.btn{display: flex;transition: 0.3s all ease;flex-wrap: wrap;justify-content: center;margin:0 40px;font-size:24px;background-color: $tertiary;max-width: 288px;display:flex;color: $white;font-family: $font;font-weight: 600;border-radius: 10px;
 			i:before {margin-right: 10px;}
 			span {display: block;width: 100%;font-size: 44px;text-transform: uppercase;font-weight: 600;}
 			&:hover {background-color: $primary;color: #fff;}
@@ -155,6 +155,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 				line-height: 1.3;
 				border-radius: 0;
 				font-size: 14px;
+				margin: auto;
 				text-transform: uppercase;
 				span {
 					width: 100%;font-size: 28px;
@@ -220,7 +221,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	position: relative;
 	margin: auto;
 	max-width: 1040px;
-	background-color: $primary;
+	background-color: #181A18;
 	padding: 20px 10px 30px;
 	-webkit-box-shadow: 1.6px 2.5px 7px rgba(7,8,8,0.35);
 	box-shadow: 1.6px 2.5px 7px rgba(7,8,8,0.35);
@@ -234,14 +235,13 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		margin: 0;
 		text-align: center;
 		color: $white;
-		font: 400 44px/1.1 $font;
+		font: 900 32px/1.1 $font2;
 		position: relative;
+		text-transform:uppercase;
 		line-height: 1;
 		margin-top: 0;
-		font-weight: 500;
 		font-family: $font2;
-		letter-spacing: 1.5px;
-		font-size: 40px;
+		letter-spacing: 4px;
 		span {
 			font-family: $font;
 			letter-spacing: normal;
@@ -256,10 +256,11 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		position: relative;
 		line-height: 1;
 		margin-top: 0;
-		font-weight: 500;
-		letter-spacing: 1.5px;
+		font-weight: 900;
+		letter-spacing: 4px;
+		text-transform:uppercase;
 		font-family: $font2;
-		font-size: 40px;
+		font-size: 32px;
 		span {
 			font-family: $font;
 			letter-spacing: normal;
@@ -452,9 +453,11 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		font-family: $font!important;
 		font-size: 32px;
 		color: $text;
+		text-transform:none;
 		margin: 20px 60px;
 		font-weight: 300;
 		margin-left: 100px;
+		letter-spacing: normal;;
 	}
 	.special-badge {
 		position: absolute;
@@ -623,12 +626,14 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		position: relative;
 		text-align: center;
 		z-index: 2;
+		letter-spacing: 4px;
 		padding: 10px 20px 15px;
 		margin: 10px auto -15px;
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
 		justify-content: center;
 		font-family: $font2;
+		span {margin: 0 10px;color: $tertiary}
 		&:before {
 			content: '';
 			height: 2px;
@@ -686,6 +691,9 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	article {
 		text-align: left;
 		padding: 5px;
+		h2 {
+			span {color: $tertiary;}
+		}
 	}
 	figure {
 		position: relative;
@@ -746,6 +754,8 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	-ms-flex-wrap: nowrap;
 	flex-wrap: nowrap;
 	border-radius: 10px;
+	#over-reviews {position: absolute;top: -50px;
+		left: -40px;}
 	#google {
 		background-color: $white;
 		-webkit-box-flex: 0;
@@ -797,7 +807,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		text-align: left;
 		margin: auto;
 		p {
-			font: 400 40px/50px $font;
+			font: 400 32px/40px $font;
 			margin-top: 0;
 			margin-top: 10px;
 			margin-bottom: 10px;
@@ -834,6 +844,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		text-align: center;
 		max-width: 1100px;
 		margin-bottom: 20px;
+		span {margin: 0 10px;color: $tertiary;}
 		&:before {
 			content: '';
 			height: 2px;
@@ -1021,7 +1032,7 @@ footer {
 	display: block;
 	z-index: 102;
 	padding-top: 30px;
-	background-color: #2C3944;
+	background-color: #181A18;
 	.flex-ed {
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
@@ -1032,11 +1043,11 @@ footer {
 		margin: auto auto 50px;
 		max-width: 1200px;
 		#footer-info, #map {
-			height: 420px;
+			height: 390px;
 		}
 	}
 	#footer-info {
-		padding: 30px;
+		padding: 50px 30px;
 		background-color: $white;
 		border-radius: 10px;
 		display: flex;
@@ -1053,7 +1064,9 @@ footer {
 				span {font-size: 32px;}
 		}
 	}
-	h2 {text-align:center;color: $white;font-size: 65px;font-weight: 500;}
+	h2 {text-align:center;color: $white;font-size: 65px;font-weight: 900;
+		span {color: $tertiary}
+	}
 	h3 {
 		// font-family: $font-family-1;
 		font-weight: 700;
@@ -1250,6 +1263,7 @@ color: #000;
 	#banner figure {margin-bottom:-66px}
 }
 @media (max-width: 1300px) {
+	#review-container #over-reviews {display:none;}
 	.review-stamp {display:none;}
 	#banner-bar {
 		margin: 0;
@@ -1327,6 +1341,9 @@ color: #000;
 	}
 }
 @media (max-width: 1000px) {
+	h2 {text-align:center;display: flex;
+		flex-wrap: wrap;}
+	.personalized h2 span {width: 100%;}
 	header {
 		address {
 			.address {
@@ -1402,7 +1419,7 @@ color: #000;
 		figure {
 			margin: auto;
 			max-width: 600px;
-			padding: 10px 10px 0;
+			padding: 0;
 			padding-bottom: 60px;
 			a {bottom: 60px;}
 		}
@@ -1857,7 +1874,7 @@ color: #000;
 @media (max-width: 480px) {
 	.personalized {
 		h1, h2 {
-			font-size: 45px;
+			font-size: 36px;
 		}
 	}
 	h2 {
