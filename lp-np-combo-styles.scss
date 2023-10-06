@@ -1,11 +1,11 @@
 $white: #fff;
 $star: #febb21;
-$primary: #018E71;
-$secondary: #E5E5E5;
-$tertiary:#49BFA9;
+$primary: #52C6DD;
+$secondary: #F2F1EC;
+$tertiary:#2B333C;
 $text: #000;
-$font: "circe", sans-serif;
-$font2: "circe", sans-serif;
+$font: 'Nunito Sans', sans-serif;
+$font2: 'Nunito Sans', sans-serif;
 
 
 /* keyframes */
@@ -57,7 +57,7 @@ menu{display:block}
 nav{display:block}
 section{display:block}
 summary{display:block}
-body{margin:0;position:relative;background-color:#EBEBEB;font-family:$font;text-align:center}
+body{margin:0;position:relative;background-color:#fff;font-family:$font;text-align:center}
 button{overflow:visible;font:inherit;line-height:initial;margin:0;text-transform:none;cursor:pointer;-webkit-appearance:button;-moz-appearance:button;appearance:button;border:0;}
 input{overflow:visible;font:inherit;line-height:initial;margin:0;}
 select{overflow:visible;font:inherit;line-height:initial;margin:0;text-transform:none}
@@ -110,7 +110,7 @@ address{font-style:normal!important}
 .fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}
 .star:before {font-size:28px;font-family:'fontello';font-weight:400;margin:0;font-style:normal;content:'\e80f \e80f \e80f \e80f \e80f';color:$star;letter-spacing:8.4px}
 p{font:300 20px/28px $font;color:$text}
-h2{text-align:left;color: #2C3944;text-transform:uppercase;font-size:40px;line-height:52px;font-weight:900;line-height:1.2;font-family:$font2!important;letter-spacing: 7px;}
+h2{text-align:left;color: #2C3944;font-size:40px;font-weight:700;line-height:1.2;font-family:$font2!important;}
 h3{font-size:32px;line-height:1.41;margin-top:10px}
 h2,h3,h4,h5,h6{font-family:$font}
 .progress{vertical-align:baseline}
@@ -130,18 +130,18 @@ figure{display:block;margin:0}
 header{position:relative;padding:0;z-index:100;background-color: #fff;
     address{padding:0 8px;}
     .address{text-align:left;display:flex;color: #000;font-size:22px;line-height:1.25;font-weight:400;letter-spacing:.55px;
-        &:hover{color:$tertiary}
-        i:before {color: $tertiary;font-size: 22px;margin-left: -10px;margin-right: 15px;}
+        &:hover{color:$primary}
+        i:before {color: $primary;font-size: 22px;margin-left: -10px;margin-right: 15px;}
     }
-	#nav{padding: 20px 10px;display:flex;flex-wrap:wrap;max-width:1350px;justify-content:space-between;margin:auto;align-items:center;
-		.btn{display: flex;transition: 0.3s all ease;flex-wrap: wrap;justify-content: center;margin:0 40px;font-size:24px;background-color: $tertiary;max-width: 288px;display:flex;color: $white;font-family: $font;font-weight: 600;border-radius: 10px;
-			i:before {margin-right: 10px;}
+	#nav{padding: 30px 10px;display:flex;flex-wrap:wrap;max-width:1400px;justify-content:space-between;margin:auto;align-items:center;
+		.btn{padding: 14px 30px 13px;text-transform:uppercase;display: flex;transition: 0.3s all ease;flex-wrap: wrap;justify-content: center;margin:0 40px;font-size:20px;background-color: $primary;max-width: 470px;display:flex;color: $text;font-family: $font;font-weight: 600;border-radius: 30px;
+			i:before {margin-right: 10px;margin-top: -2px;}
 			span {display: block;width: 100%;font-size: 44px;text-transform: uppercase;font-weight: 600;}
-			&:hover {background-color: $primary;color: #fff;}
+			&:hover {background-color: $tertiary;color: #fff;}
 		}
 		#header-details {
-			.pho {margin-bottom: 10px;
-				&:hover {color: $tertiary;}
+			.pho {margin-bottom: 15px;
+				&:hover {color: $primary;}
 			}
 		}
 		#mobile-btns {
@@ -153,6 +153,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 				padding: 10px;
 				justify-content: center;
 				line-height: 1.3;
+				color: #fff;
 				border-radius: 0;
 				font-size: 14px;
 				margin: auto;
@@ -170,7 +171,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 					width: 100%;
 				}
 			  }
-			.phone {background-color: #2C3944;color: #fff;font-size: 20px;line-height: 1.3;
+			.phone {background-color: #000;color: #fff;font-size: 20px;line-height: 1.3;
 				span {text-transform: uppercase;font-size: 16px;font-weight: 700;letter-spacing: 1px;}
 			}
 			#mobile-special {
@@ -192,12 +193,12 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 #safe-bar {
     width: 100%;
 	position: relative;
-	background-color: $primary;
+	background-color: $tertiary;
 	z-index: 10;
 	-webkit-box-shadow: 1.6px 2.5px 13px rgba(7,8,8,0.35);
 	box-shadow: 1.6px 2.5px 13px rgba(7,8,8,0.35);
 	color: #fff;
-	font: 400 24px/1.2 $font;
+	font: 700 24px/1.2 $font;
 	padding: 10px;
 	text-align: center;
 	letter-spacing: 1px;
@@ -209,9 +210,9 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 
 .pho{display:flex;color:#000;font:700 37px/30px $font;
     span{display:block;color:#FFF;font-size:14px;font-weight:500;text-transform:uppercase;font-family:$font}
-    &:hover{color:$text;}
+    &:hover{color: $primary}
     i {display: flex;align-items: center;
-        &:before {color: $tertiary;font-size: 22px;margin-left: 0px;margin-right: 15px;}
+        &:before {color: $primary;font-size: 22px;margin-left: 0px;margin-right: 15px;}
     }
 }
 .mobile-banner-reviews {
@@ -247,7 +248,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	position: relative;
 	margin: auto;
 	max-width: 1040px;
-	background-color: #181A18;
+	background-color: $tertiary;
 	padding: 20px 10px 30px;
 	-webkit-box-shadow: 1.6px 2.5px 7px rgba(7,8,8,0.35);
 	box-shadow: 1.6px 2.5px 7px rgba(7,8,8,0.35);
@@ -261,13 +262,11 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		margin: 0;
 		text-align: center;
 		color: $white;
-		font: 900 32px/1.1 $font2;
+		font: 900 40px/1.1 $font2;
 		position: relative;
-		text-transform:uppercase;
 		line-height: 1;
 		margin-top: 0;
 		font-family: $font2;
-		letter-spacing: 4px;
 		span {
 			font-family: $font;
 			letter-spacing: normal;
@@ -276,6 +275,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 			text-transform: none;
 			display: block;
 			margin-bottom: 5px;
+			width: 100%;
 		}
 	}
 	h1 {
@@ -283,10 +283,8 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		line-height: 1;
 		margin-top: 0;
 		font-weight: 900;
-		letter-spacing: 4px;
-		text-transform:uppercase;
 		font-family: $font2;
-		font-size: 32px;
+		font-size: 40px;
 		span {
 			font-family: $font;
 			letter-spacing: normal;
@@ -469,7 +467,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 #banner-bar {
 	position: relative;
 	top: -80px;
-	background-color: #FFF;
+	background-color: #fff;
 	margin: 0 auto;
 	border-radius: 10px;
 	box-shadow: 1px 3px 3px lightgray;
@@ -478,23 +476,22 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	h2 {
 		font-family: $font!important;
 		font-size: 32px;
-		color: $text;
+		color: #000;
 		text-transform:none;
-		margin: 20px 60px;
+		margin: 30px 30px 30px 60px;
 		font-weight: 300;
-		margin-left: 100px;
-		letter-spacing: normal;;
+		letter-spacing: normal;
 	}
 	.special-badge {
 		position: absolute;
 		left: -55px;
-		top: -50px;
+		top: -45px;
 	}
 	div {
 		display: flex;
 		align-items: center;
 		max-width: 82%;
-		margin: auto;
+		margin: auto 30px auto auto;
 	}
 }
 #lists {
@@ -504,10 +501,31 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	justify-content: space-between;
 	-ms-flex-wrap: nowrap;
 	flex-wrap: nowrap;
-	max-width: 1200px;
+	max-width: 1250px;
 	margin: 20px auto;
+	.flex-ed {justify-content: space-between;}
 	sup {
 		top: -.7em;
+	}
+	> h2 {display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
+		&:before {
+			content: '';
+			height: 2px;
+			-webkit-box-flex: 1;
+			-ms-flex: 1;
+			flex: 1;
+			margin-right: 70px;
+			background-color: #000;
+		}
+		&:after {
+			content: '';
+			height: 2px;
+			-webkit-box-flex: 1;
+			-ms-flex: 1;
+			flex: 1;
+			margin-left: 70px;
+			background-color: #000;
+		}
 	}
 }
 
@@ -535,9 +553,9 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		display: inline-block;
 		height: 71%;
 		width: 30px;
-		border-top: 5px solid #454647;
-		border-left: 5px solid #454647;
-		border-bottom: 5px solid #454647;
+		border-top: 5px solid rgba(255,255,255,0.5);
+		border-left: 5px solid rgba(255,255,255,0.5);
+		border-bottom: 5px solid rgba(255,255,255,0.5);
 		border-radius: 20px 0 0 20px;
 	}
 	&:after {
@@ -550,9 +568,9 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		display: inline-block;
 		height: 71%;
 		width: 30px;
-		border-top: 5px solid #454647;
-		border-right: 5px solid #454647;
-		border-bottom: 5px solid #454647;
+		border-top: 5px solid rgba(255,255,255,0.5);
+		border-right: 5px solid rgba(255,255,255,0.5);
+		border-bottom: 5px solid rgba(255,255,255,0.5);
 		border-radius: 0 20px 20px 0;
 	}
 }
@@ -575,10 +593,10 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 			&:before {
 				content: '\e832';
 				font-family: 'fontello';
-				color: $tertiary;
-				font-size: .8em;
+				color: $primary;
+				font-size: .9em;
 				position: absolute;
-				top: 13px;
+				top: 10px;
 				left: -2px;
 			}
 		}
@@ -589,6 +607,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	margin: 70px auto 20px;
 	box-shadow: 1px 4px 6px lightgray;
 	border-radius: 20px;
+	border: 1px solid #2B333C;
 	background-color: #fff;
 	padding: 20px;
 	p {
@@ -603,8 +622,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		align-items: center;
 		span {
 			font-size: 30px;
-			font-weight: 300;
-			color: $primary;
+			font-weight: 700;
 		}
 	}
 	.flex-ed {
@@ -641,7 +659,10 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		padding: 30px;
 		text-align: center;
 	}
-	#insurance-list {margin: 20px auto;display:flex;flex-wrap:wrap;justify-content: space-evenly;align-items:center;}
+	#insurance-list, #awards-list {margin: 20px auto;display:flex;flex-wrap:wrap;justify-content: space-evenly;align-items:center;}
+	#insurance-list {
+		span {margin: 20px auto;}
+	}
 	h2 {
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -652,7 +673,6 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		position: relative;
 		text-align: center;
 		z-index: 2;
-		letter-spacing: 4px;
 		padding: 10px 20px 15px;
 		margin: 10px auto -15px;
 		-webkit-box-pack: center;
@@ -707,6 +727,9 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		text-align: center;
 	}
 }
+
+#education {padding-bottom: 0;}
+
 #dentist {
 	position: relative;
 	z-index: 2;
@@ -728,7 +751,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 			width: 100%;left: 0;position: absolute;bottom: 0;
 				color: $text;
 				font-family: $font;
-				font-size: 16px;
+				font-size: 18px;
 				letter-spacing: .05em;
 				text-transform: uppercase;
 				font-weight: 700;
@@ -736,6 +759,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 				text-align: center;
 				margin: auto;
 				background-color: rgba(255, 255, 255, 0.9);
+				&:hover {color: $primary;}
 		}
 	}
 }
@@ -762,7 +786,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	}
 }
 #reviews {
-	background-color: $primary;
+	background-color: $tertiary;
 	padding: 100px 0;
 }
 #review-container {
@@ -1058,7 +1082,7 @@ footer {
 	display: block;
 	z-index: 102;
 	padding-top: 30px;
-	background-color: #181A18;
+	background-color: #2C3944;
 	.flex-ed {
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
@@ -1069,7 +1093,7 @@ footer {
 		margin: auto auto 50px;
 		max-width: 1200px;
 		#footer-info, #map {
-			height: 390px;
+			height: 450px;
 		}
 	}
 	#footer-info {
@@ -1090,7 +1114,7 @@ footer {
 				span {font-size: 32px;}
 		}
 	}
-	h2 {text-align:center;color: $white;font-size: 65px;font-weight: 900;
+	h2 {text-align:center;color: $white;font-size: 65px;
 		span {color: $tertiary}
 	}
 	h3 {
@@ -1116,13 +1140,13 @@ footer {
 	}
 	.phone {
 		font-size: 31px;
-		color: $tertiary;
+		color: $primary;
 		margin: 20px auto 0;
 		font-weight: 700;
 		display: block;
 		letter-spacing: .28px;
 		&:hover {
-			color: $primary;
+			color: $tertiary;
 		}
 		small {
 			font-size: 19px;
@@ -1136,7 +1160,7 @@ color: #000;
 		line-height: 25px;
 		margin: 5px;
 		&:hover {
-			color: $tertiary;
+			color: $primary;
 		}
 	}
 }
@@ -1156,9 +1180,9 @@ color: #000;
 		line-height: 18px;
 	}
 	a {
-		color: $tertiary;
+		color: $primary;
 		&:hover {
-			color: $primary;
+			color: #fff;
 		}
 	}
 	span:not(:first-of-type) {
@@ -1258,14 +1282,13 @@ color: #000;
 #fixed-tabs { display:none;position: fixed; right: 0; text-align: center; line-height: 1; font-size: 0; z-index: 510;}
 #fixed-tabs a { font-size: 12px; font-weight: 700;background-color: #7d7e82; color: #fff; position: relative; overflow: hidden; transition: width .3s, background-color .3s;}
 #fixed-tabs .ra {flex: 2;}
-#fixed-tabs .call {color: #000;}
+#fixed-tabs .call, #fixed-tabs .ra, #fixed-tabs .map {color: #000;}
 #fixed-tabs i { font-size: 16px; }
 #fixed-tabs i, #fixed-tabs i:before { margin: 0 3px 0 0; }
-#fixed-tabs em { font-size: 14px; font-style: normal; margin-top: 4px; font-weight: 400; text-transform: uppercase; }
+#fixed-tabs em { font-size: 14px; font-style: normal; font-weight: 700; text-transform: uppercase; }
 #fixed-tabs strong { font-weight: 900; }
 #fixed-tabs .ra, #fixed-tabs .map { background-color: $primary; }
 #fixed-tabs .call {background-color: $secondary;}
-#fixed-tabs .ra em {margin-top: 6px;}
 @media (max-width:1000px) {
   #fixed-tabs { bottom: 0; width: 100%; box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
   #fixed-tabs a { padding: 12px 0; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
@@ -1435,7 +1458,6 @@ color: #000;
 	.bkgrd {
 		padding: 0;
 	}
-	#safe-bar {background-color: #659DC6;}
 	#dentist {
 		display: block;
 		padding: 10px 0 0;
@@ -1521,10 +1543,11 @@ color: #000;
 	#mobile-btns {display:none;}
 }
 @media (max-width: 900px) {
+	.insurance #awards-list span {margin: 20px auto;}
 	#nav #header-details,#nav > .btn {display:none;}
 	#nav .logo {margin: 15px auto;}
 	#nav {padding: 0;}
-	#dentist, #practice, .insurance {
+	#dentist, #practice, .insurance, #lists .flex-ed {
 		h2 {position: relative;display: flex;justify-content: center;padding-bottom: 30px;
 			&:before {display:none;}
 			&:after {content: '';bottom: 0;width: 150px;margin: auto;height: 2px;background-color: #000;position: absolute;}
@@ -1593,7 +1616,7 @@ color: #000;
 	}
 	#safe-bar {
 		color: $white;
-		background-color:$primary;
+		background-color:$tertiary;
 		span {
 			&:nth-of-type(2) {
 				display: none;
@@ -1697,11 +1720,11 @@ color: #000;
 		text-align: center;
 	}
 	#reviews {
-		padding: 50px 25px;
+		padding: 70px 25px;
 		#review-container {
 			#google {border-radius:10px 10px 0 0;flex: auto;}
 			.comment {
-				p {font-size: 30px;text-align: center;}
+				p {font-size: 24px;text-align: center;}
 				.caption2 {font-size: 18px;width: 100%;}
 			}
 		}
@@ -1751,11 +1774,13 @@ color: #000;
 }
 @media (max-width: 700px) {
 	main {display:flex;flex-wrap:wrap;}
-	#safe-bar, #banner-bar {order:-1;}
-	#banner-bar {border-radius: 0;background-color: #F3F3F0;
+	#banner-bar {border-radius: 0;background-color: #F3F3F0;order: -1;
 		img {margin: 20px auto 40px;}
+		h2 {color: $text;}
 	}
+	#banner-bar div {margin: auto;}
 	#banner {border-bottom: 15px solid $primary;}
+	#safe-bar {order: -2;}
 	#banner-bar #top-dentist {display:block!important;margin: 40px auto;}
 	#credentials span {flex: 100%;margin: 30px auto;}
 	.personalized {
@@ -1919,7 +1944,7 @@ color: #000;
 			padding: 0;
 		}
 	}
-	.insurance #insurance-list img {margin: 10px;}
+	.insurance #insurance-list img {margin: auto;}
 	.border-box {
 		&:before {
 			display: none;
@@ -1961,7 +1986,7 @@ color: #000;
 	}
 	header .header-info .phone {font-size: 18px;}
 	#safe-bar {
-		font-size: 18px;
+		font-size: 17px;
 	}
 	.personalized {
 		padding: 20px 10px;
@@ -1993,13 +2018,14 @@ color: #000;
 		}
 	}
 	h2 {
-		font-size: 41px;
+		font-size: 32px;
 	}
 	.insurance {
 		h2 {
 			margin: 10px 0 -15px;
 			padding: 10px 0 25px;
 		}
+		.container {padding: 30px 10px;}
 		.flex-ed {
 			div {
 				margin: 15px 18px;

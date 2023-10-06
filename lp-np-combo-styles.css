@@ -78,8 +78,8 @@ summary {
 body {
   margin: 0;
   position: relative;
-  background-color: #EBEBEB;
-  font-family: "circe", sans-serif;
+  background-color: #fff;
+  font-family: "Nunito Sans", sans-serif;
   text-align: center;
 }
 
@@ -202,11 +202,11 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0 0 0.67em;
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   margin: 0;
   text-align: center;
   color: #fff;
-  font: 400 44px/1.1 "circe", sans-serif;
+  font: 400 44px/1.1 "Nunito Sans", sans-serif;
   font-size: 26px;
   font-weight: 300;
   display: block;
@@ -376,20 +376,17 @@ address {
 }
 
 p {
-  font: 300 20px/28px "circe", sans-serif;
+  font: 300 20px/28px "Nunito Sans", sans-serif;
   color: #000;
 }
 
 h2 {
   text-align: left;
   color: #2C3944;
-  text-transform: uppercase;
   font-size: 40px;
-  line-height: 52px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.2;
-  font-family: "circe", sans-serif !important;
-  letter-spacing: 7px;
+  font-family: "Nunito Sans", sans-serif !important;
 }
 
 h3 {
@@ -399,7 +396,7 @@ h3 {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .progress {
@@ -449,9 +446,9 @@ details {
 figcaption {
   display: block;
   text-align: center;
-  font: 400 18px/1 "circe", sans-serif;
+  font: 400 18px/1 "Nunito Sans", sans-serif;
   text-transform: uppercase;
-  color: #018E71;
+  color: #52C6DD;
 }
 
 strong {
@@ -459,7 +456,7 @@ strong {
   font-weight: 400;
   display: block;
   font-size: 28px;
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-transform: uppercase;
 }
 
@@ -488,40 +485,43 @@ header .address {
   letter-spacing: 0.55px;
 }
 header .address:hover {
-  color: #49BFA9;
+  color: #52C6DD;
 }
 header .address i:before {
-  color: #49BFA9;
+  color: #52C6DD;
   font-size: 22px;
   margin-left: -10px;
   margin-right: 15px;
 }
 header #nav {
-  padding: 20px 10px;
+  padding: 30px 10px;
   display: flex;
   flex-wrap: wrap;
-  max-width: 1350px;
+  max-width: 1400px;
   justify-content: space-between;
   margin: auto;
   align-items: center;
 }
 header #nav .btn {
+  padding: 14px 30px 13px;
+  text-transform: uppercase;
   display: flex;
   transition: 0.3s all ease;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 40px;
-  font-size: 24px;
-  background-color: #49BFA9;
-  max-width: 288px;
+  font-size: 20px;
+  background-color: #52C6DD;
+  max-width: 470px;
   display: flex;
-  color: #fff;
-  font-family: "circe", sans-serif;
+  color: #000;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 header #nav .btn i:before {
   margin-right: 10px;
+  margin-top: -2px;
 }
 header #nav .btn span {
   display: block;
@@ -531,14 +531,14 @@ header #nav .btn span {
   font-weight: 600;
 }
 header #nav .btn:hover {
-  background-color: #018E71;
+  background-color: #2B333C;
   color: #fff;
 }
 header #nav #header-details .pho {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 header #nav #header-details .pho:hover {
-  color: #49BFA9;
+  color: #52C6DD;
 }
 header #nav #mobile-btns {
   width: 100%;
@@ -554,6 +554,7 @@ header #nav #mobile-btns .btn {
   padding: 10px;
   justify-content: center;
   line-height: 1.3;
+  color: #fff;
   border-radius: 0;
   font-size: 14px;
   margin: auto;
@@ -573,7 +574,7 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   width: 100%;
 }
 header #nav #mobile-btns .phone {
-  background-color: #2C3944;
+  background-color: #000;
   color: #fff;
   font-size: 20px;
   line-height: 1.3;
@@ -591,7 +592,7 @@ header #nav #mobile-btns #mobile-special .container {
   padding: 5px;
 }
 header #nav #mobile-btns #mobile-special .container h4 {
-  color: #49BFA9;
+  color: #2B333C;
   font-size: 22px;
   margin: 0;
 }
@@ -624,11 +625,11 @@ header #nav #mobile-btns #mobile-special .container small {
 #safe-bar {
   width: 100%;
   position: relative;
-  background-color: #018E71;
+  background-color: #2B333C;
   z-index: 10;
   box-shadow: 1.6px 2.5px 13px rgba(7, 8, 8, 0.35);
   color: #fff;
-  font: 400 24px/1.2 "circe", sans-serif;
+  font: 700 24px/1.2 "Nunito Sans", sans-serif;
   padding: 10px;
   text-align: center;
   letter-spacing: 1px;
@@ -646,7 +647,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .pho {
   display: flex;
   color: #000;
-  font: 700 37px/30px "circe", sans-serif;
+  font: 700 37px/30px "Nunito Sans", sans-serif;
 }
 .pho span {
   display: block;
@@ -654,17 +655,17 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 .pho:hover {
-  color: #000;
+  color: #52C6DD;
 }
 .pho i {
   display: flex;
   align-items: center;
 }
 .pho i:before {
-  color: #49BFA9;
+  color: #52C6DD;
   font-size: 22px;
   margin-left: 0px;
   margin-right: 15px;
@@ -702,7 +703,7 @@ header #nav #mobile-btns #mobile-special .container small {
   position: relative;
   margin: auto;
   max-width: 1040px;
-  background-color: #181A18;
+  background-color: #2B333C;
   padding: 20px 10px 30px;
   box-shadow: 1.6px 2.5px 7px rgba(7, 8, 8, 0.35);
   border-radius: 10px;
@@ -714,35 +715,32 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 0;
   text-align: center;
   color: #fff;
-  font: 900 32px/1.1 "circe", sans-serif;
+  font: 900 40px/1.1 "Nunito Sans", sans-serif;
   position: relative;
-  text-transform: uppercase;
   line-height: 1;
   margin-top: 0;
-  font-family: "circe", sans-serif;
-  letter-spacing: 4px;
+  font-family: "Nunito Sans", sans-serif;
 }
 .personalized h2 span {
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   letter-spacing: normal;
   font-size: 26px;
   font-weight: 300;
   text-transform: none;
   display: block;
   margin-bottom: 5px;
+  width: 100%;
 }
 .personalized h1 {
   position: relative;
   line-height: 1;
   margin-top: 0;
   font-weight: 900;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-family: "circe", sans-serif;
-  font-size: 32px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 40px;
 }
 .personalized h1 span {
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   letter-spacing: normal;
   text-transform: none;
   font-size: 26px;
@@ -766,7 +764,7 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 22px;
   line-height: 1.25;
   font-weight: 300;
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 .address:hover {
   color: #000;
@@ -778,16 +776,16 @@ header #nav #mobile-btns #mobile-special .container small {
   display: inline-block;
   margin: 3px auto;
   padding: 12px 30px;
-  color: #018E71;
+  color: #52C6DD;
   font: 500 18px/1 "Playfair Display", serif;
   transition: border 0.3s;
-  background-color: #018E71;
+  background-color: #52C6DD;
   letter-spacing: 1.8px;
   border-radius: 7px;
 }
 .btn:hover {
-  background-color: #018E71;
-  background-color: #018E71;
+  background-color: #52C6DD;
+  background-color: #52C6DD;
   color: #000;
   color: #000;
 }
@@ -801,13 +799,13 @@ header #nav #mobile-btns #mobile-special .container small {
   color: #000;
   font: 500 18px/1 "Playfair Display", serif;
   transition: border 0.3s;
-  background-color: #018E71;
+  background-color: #52C6DD;
   letter-spacing: 1.8px;
   border-radius: 7px;
 }
 .btn-alt:hover {
-  background-color: #018E71;
-  background-color: #018E71;
+  background-color: #52C6DD;
+  background-color: #52C6DD;
   color: #000;
   color: #000;
 }
@@ -861,7 +859,7 @@ header #nav #mobile-btns #mobile-special .container small {
   color: #000;
   background: rgba(255, 255, 255, 0.8);
   padding: 5px 20px;
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.65px;
@@ -870,7 +868,7 @@ header #nav #mobile-btns #mobile-special .container small {
 #banner-bar {
   position: relative;
   top: -80px;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 1px 3px 3px lightgray;
@@ -880,41 +878,63 @@ header #nav #mobile-btns #mobile-special .container small {
   display: none;
 }
 #banner-bar h2 {
-  font-family: "circe", sans-serif !important;
+  font-family: "Nunito Sans", sans-serif !important;
   font-size: 32px;
   color: #000;
   text-transform: none;
-  margin: 20px 60px;
+  margin: 30px 30px 30px 60px;
   font-weight: 300;
-  margin-left: 100px;
   letter-spacing: normal;
 }
 #banner-bar .special-badge {
   position: absolute;
   left: -55px;
-  top: -50px;
+  top: -45px;
 }
 #banner-bar div {
   display: flex;
   align-items: center;
   max-width: 82%;
-  margin: auto;
+  margin: auto 30px auto auto;
 }
 
 #lists {
   position: relative;
   justify-content: space-between;
   flex-wrap: nowrap;
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 20px auto;
+}
+#lists .flex-ed {
+  justify-content: space-between;
 }
 #lists sup {
   top: -0.7em;
 }
+#lists > h2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#lists > h2:before {
+  content: "";
+  height: 2px;
+  flex: 1;
+  margin-right: 70px;
+  background-color: #000;
+}
+#lists > h2:after {
+  content: "";
+  height: 2px;
+  flex: 1;
+  margin-left: 70px;
+  background-color: #000;
+}
 
 #credentials {
-  border-top: 5px solid #018E71;
-  border-bottom: 5px solid #018E71;
+  border-top: 5px solid #52C6DD;
+  border-bottom: 5px solid #52C6DD;
   margin: 50px auto;
 }
 #credentials > div {
@@ -948,9 +968,9 @@ header #nav #mobile-btns #mobile-special .container small {
   display: inline-block;
   height: 71%;
   width: 30px;
-  border-top: 5px solid #454647;
-  border-left: 5px solid #454647;
-  border-bottom: 5px solid #454647;
+  border-top: 5px solid rgba(255, 255, 255, 0.5);
+  border-left: 5px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 5px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px 0 0 20px;
 }
 .border-box:after {
@@ -963,9 +983,9 @@ header #nav #mobile-btns #mobile-special .container small {
   display: inline-block;
   height: 71%;
   width: 30px;
-  border-top: 5px solid #454647;
-  border-right: 5px solid #454647;
-  border-bottom: 5px solid #454647;
+  border-top: 5px solid rgba(255, 255, 255, 0.5);
+  border-right: 5px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 5px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 20px 20px 0;
 }
 
@@ -981,7 +1001,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .list ul li {
   width: 100%;
   color: #fff;
-  font: 300 24px/1.2 "circe", sans-serif;
+  font: 300 24px/1.2 "Nunito Sans", sans-serif;
   letter-spacing: 0.6px;
   padding-left: 32px;
   padding-top: 10px;
@@ -991,10 +1011,10 @@ header #nav #mobile-btns #mobile-special .container small {
 .list ul li:before {
   content: "\e832";
   font-family: "fontello";
-  color: #49BFA9;
-  font-size: 0.8em;
+  color: #52C6DD;
+  font-size: 0.9em;
   position: absolute;
-  top: 13px;
+  top: 10px;
   left: -2px;
 }
 
@@ -1003,6 +1023,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 70px auto 20px;
   box-shadow: 1px 4px 6px lightgray;
   border-radius: 20px;
+  border: 1px solid #2B333C;
   background-color: #fff;
   padding: 20px;
 }
@@ -1017,8 +1038,7 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .looking p span {
   font-size: 30px;
-  font-weight: 300;
-  color: #018E71;
+  font-weight: 700;
 }
 .looking .flex-ed {
   max-width: 660px;
@@ -1054,12 +1074,15 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 30px;
   text-align: center;
 }
-.insurance #insurance-list {
+.insurance #insurance-list, .insurance #awards-list {
   margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+}
+.insurance #insurance-list span {
+  margin: 20px auto;
 }
 .insurance h2 {
   display: flex;
@@ -1067,15 +1090,14 @@ header #nav #mobile-btns #mobile-special .container small {
   position: relative;
   text-align: center;
   z-index: 2;
-  letter-spacing: 4px;
   padding: 10px 20px 15px;
   margin: 10px auto -15px;
   justify-content: center;
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 .insurance h2 span {
   margin: 0 10px;
-  color: #49BFA9;
+  color: #2B333C;
 }
 .insurance h2:before {
   content: "";
@@ -1108,9 +1130,13 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .insurance #disclaimer {
   opacity: 0.4;
-  font: 400 14px/1 "circe", sans-serif;
+  font: 400 14px/1 "Nunito Sans", sans-serif;
   margin-top: 20px;
   text-align: center;
+}
+
+#education {
+  padding-bottom: 0;
 }
 
 #dentist {
@@ -1125,7 +1151,7 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 5px;
 }
 #dentist article h2 span {
-  color: #49BFA9;
+  color: #2B333C;
 }
 #dentist figure {
   position: relative;
@@ -1137,8 +1163,8 @@ header #nav #mobile-btns #mobile-special .container small {
   position: absolute;
   bottom: 0;
   color: #000;
-  font-family: "circe", sans-serif;
-  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   font-weight: 700;
@@ -1147,20 +1173,23 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: auto;
   background-color: rgba(255, 255, 255, 0.9);
 }
+#dentist figure a:hover {
+  color: #52C6DD;
+}
 
 .caption {
   position: relative;
   display: table;
   margin: -20px auto 20px;
   padding: 0 5px;
-  color: #018E71;
+  color: #52C6DD;
 }
 .caption a {
-  color: #018E71;
+  color: #52C6DD;
   display: inline-block;
   padding: 10px;
   text-align: center;
-  font: 400 16px/1 "circe", sans-serif;
+  font: 400 16px/1 "Nunito Sans", sans-serif;
   bottom: 0;
   margin: auto;
 }
@@ -1172,13 +1201,13 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 
 #reviews {
-  background-color: #018E71;
+  background-color: #2B333C;
   padding: 100px 0;
 }
 
 #review-container {
   position: relative;
-  background-color: #E5E5E5;
+  background-color: #F2F1EC;
   box-shadow: 1.6px 2.5px 7px rgba(7, 8, 8, 0.35);
   max-width: 1200px;
   color: #fff;
@@ -1211,7 +1240,7 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 5px 25px;
 }
 #review-container #google p {
-  color: #018E71;
+  color: #52C6DD;
   line-height: 37px;
   display: block;
   margin-top: 25px;
@@ -1233,7 +1262,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: auto;
 }
 #review-container .comment p {
-  font: 400 32px/40px "circe", sans-serif;
+  font: 400 32px/40px "Nunito Sans", sans-serif;
   margin-top: 0;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1242,7 +1271,7 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 #review-container .comment .caption2 {
   float: right;
-  font: 700 18px/1 "circe", sans-serif;
+  font: 700 18px/1 "Nunito Sans", sans-serif;
   text-transform: uppercase;
   margin: 5px 0 10px;
   letter-spacing: 1.95px;
@@ -1259,14 +1288,14 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 10px 20px 15px;
   margin: auto;
   justify-content: center;
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-align: center;
   max-width: 1100px;
   margin-bottom: 20px;
 }
 #practice h2 span {
   margin: 0 10px;
-  color: #49BFA9;
+  color: #2B333C;
 }
 #practice h2:before {
   content: "";
@@ -1315,7 +1344,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin-left: 14px;
 }
 #practice .pager span.cycle-pager-active {
-  background-color: #018E71;
+  background-color: #52C6DD;
 }
 
 #contact {
@@ -1394,7 +1423,7 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 22px;
   letter-spacing: 0.03em;
   font-weight: 700;
-  color: #018E71;
+  color: #52C6DD;
   text-align: center;
   margin: auto;
   text-transform: uppercase;
@@ -1406,9 +1435,9 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .hours p {
   font-size: 17px;
-  color: #018E71;
+  color: #52C6DD;
   line-height: 1.5;
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-align: left !important;
 }
 
@@ -1433,7 +1462,7 @@ footer {
   display: block;
   z-index: 102;
   padding-top: 30px;
-  background-color: #181A18;
+  background-color: #2C3944;
 }
 footer .flex-ed {
   justify-content: space-evenly;
@@ -1442,7 +1471,7 @@ footer .flex-ed {
   max-width: 1200px;
 }
 footer .flex-ed #footer-info, footer .flex-ed #map {
-  height: 390px;
+  height: 450px;
 }
 footer #footer-info {
   padding: 50px 30px;
@@ -1468,10 +1497,9 @@ footer h2 {
   text-align: center;
   color: #fff;
   font-size: 65px;
-  font-weight: 900;
 }
 footer h2 span {
-  color: #49BFA9;
+  color: #2B333C;
 }
 footer h3 {
   font-weight: 700;
@@ -1493,14 +1521,14 @@ footer #contact h3 {
 }
 footer .phone {
   font-size: 31px;
-  color: #49BFA9;
+  color: #52C6DD;
   margin: 20px auto 0;
   font-weight: 700;
   display: block;
   letter-spacing: 0.28px;
 }
 footer .phone:hover {
-  color: #018E71;
+  color: #2B333C;
 }
 footer .phone small {
   font-size: 19px;
@@ -1514,7 +1542,7 @@ footer .address {
   margin: 5px;
 }
 footer .address:hover {
-  color: #49BFA9;
+  color: #52C6DD;
 }
 
 .copy {
@@ -1522,7 +1550,7 @@ footer .address:hover {
   background-color: #000;
   margin: auto;
   letter-spacing: 1px;
-  font: 300 14px/1.4 "circe", sans-serif;
+  font: 300 14px/1.4 "Nunito Sans", sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
@@ -1534,10 +1562,10 @@ footer .address:hover {
   line-height: 18px;
 }
 .copy a {
-  color: #49BFA9;
+  color: #52C6DD;
 }
 .copy a:hover {
-  color: #018E71;
+  color: #fff;
 }
 .copy span:not(:first-of-type) {
   margin: 0 8px;
@@ -1623,7 +1651,7 @@ footer .address:hover {
   color: #fff;
   text-transform: uppercase;
   font-size: 20px;
-  font-family: "circe", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 /* FIXED TABS */
@@ -1651,7 +1679,7 @@ footer .address:hover {
   flex: 2;
 }
 
-#fixed-tabs .call {
+#fixed-tabs .call, #fixed-tabs .ra, #fixed-tabs .map {
   color: #000;
 }
 
@@ -1666,8 +1694,7 @@ footer .address:hover {
 #fixed-tabs em {
   font-size: 14px;
   font-style: normal;
-  margin-top: 4px;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -1676,15 +1703,11 @@ footer .address:hover {
 }
 
 #fixed-tabs .ra, #fixed-tabs .map {
-  background-color: #018E71;
+  background-color: #52C6DD;
 }
 
 #fixed-tabs .call {
-  background-color: #E5E5E5;
-}
-
-#fixed-tabs .ra em {
-  margin-top: 6px;
+  background-color: #F2F1EC;
 }
 
 @media (max-width: 1000px) {
@@ -1865,9 +1888,6 @@ footer .address:hover {
   .bkgrd {
     padding: 0;
   }
-  #safe-bar {
-    background-color: #659DC6;
-  }
   #dentist {
     display: block;
     padding: 10px 0 0;
@@ -1950,6 +1970,9 @@ footer .address:hover {
   }
 }
 @media (max-width: 900px) {
+  .insurance #awards-list span {
+    margin: 20px auto;
+  }
   #nav #header-details, #nav > .btn {
     display: none;
   }
@@ -1959,16 +1982,16 @@ footer .address:hover {
   #nav {
     padding: 0;
   }
-  #dentist h2, #practice h2, .insurance h2 {
+  #dentist h2, #practice h2, .insurance h2, #lists .flex-ed h2 {
     position: relative;
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
   }
-  #dentist h2:before, #practice h2:before, .insurance h2:before {
+  #dentist h2:before, #practice h2:before, .insurance h2:before, #lists .flex-ed h2:before {
     display: none;
   }
-  #dentist h2:after, #practice h2:after, .insurance h2:after {
+  #dentist h2:after, #practice h2:after, .insurance h2:after, #lists .flex-ed h2:after {
     content: "";
     bottom: 0;
     width: 150px;
@@ -2037,7 +2060,7 @@ footer .address:hover {
   header .header-info .phone {
     font-size: 21px;
     padding: 10px;
-    background-color: #49BFA9;
+    background-color: #2B333C;
     color: #fff;
     flex: 0 1 50%;
   }
@@ -2046,7 +2069,7 @@ footer .address:hover {
   }
   #safe-bar {
     color: #fff;
-    background-color: #018E71;
+    background-color: #2B333C;
   }
   #safe-bar span:nth-of-type(2) {
     display: none;
@@ -2139,14 +2162,14 @@ footer .address:hover {
     text-align: center;
   }
   #reviews {
-    padding: 50px 25px;
+    padding: 70px 25px;
   }
   #reviews #review-container #google {
     border-radius: 10px 10px 0 0;
     flex: auto;
   }
   #reviews #review-container .comment p {
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
   }
   #reviews #review-container .comment .caption2 {
@@ -2197,18 +2220,25 @@ footer .address:hover {
     display: flex;
     flex-wrap: wrap;
   }
-  #safe-bar, #banner-bar {
-    order: -1;
-  }
   #banner-bar {
     border-radius: 0;
     background-color: #F3F3F0;
+    order: -1;
   }
   #banner-bar img {
     margin: 20px auto 40px;
   }
+  #banner-bar h2 {
+    color: #000;
+  }
+  #banner-bar div {
+    margin: auto;
+  }
   #banner {
-    border-bottom: 15px solid #018E71;
+    border-bottom: 15px solid #52C6DD;
+  }
+  #safe-bar {
+    order: -2;
   }
   #banner-bar #top-dentist {
     display: block !important;
@@ -2364,7 +2394,7 @@ footer .address:hover {
     padding: 0;
   }
   .insurance #insurance-list img {
-    margin: 10px;
+    margin: auto;
   }
   .border-box:before {
     display: none;
@@ -2395,7 +2425,7 @@ footer .address:hover {
     font-size: 18px;
   }
   #safe-bar {
-    font-size: 18px;
+    font-size: 17px;
   }
   .personalized {
     padding: 20px 10px;
@@ -2421,11 +2451,14 @@ footer .address:hover {
     font-size: 14px;
   }
   h2 {
-    font-size: 41px;
+    font-size: 32px;
   }
   .insurance h2 {
     margin: 10px 0 -15px;
     padding: 10px 0 25px;
+  }
+  .insurance .container {
+    padding: 30px 10px;
   }
   .insurance .flex-ed div {
     margin: 15px 18px;
